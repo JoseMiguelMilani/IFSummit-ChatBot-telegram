@@ -13,12 +13,23 @@ Seja bem-vindo ao repositório oficial do nosso minicurso! esse sera o seu  guia
 
 ## sumario
 
-- [Explicação do projeto](#)
-- [O que é um chatBot](#)
-- [Por que o Telegram](#)
-- [Diagramas de uso](#)
-- [Tecnologias utilizadas](#)
-- [APIs utilizadas](#API-Telegram)
+- [Explicação do projeto](#explicação-do-projeto)
+- [O que é um ChatBot](#o-que-é-um-chatbot)
+- [Por que o Telegram](#por-por-que-telegram)
+- [Funcionamento do Telegram](#funcionamento-do-telegram)
+- [Funcionamento do Bot](#funcionamento-bot)
+- [Tecnologias Utilizadas](#tecnologias)
+- [APIs e Dependências](#api-telegram)
+- [Criando nosso primeiro bot](#criando-nosso-primeiro-bot)
+- [O Desafio Prático: Chatbot Autenticado](#-o-desafio-prático-chatbot-autenticado)
+
+## 🛠️ Pré-requisitos
+
+Antes de iniciar, certifique-se de ter instalado em sua máquina:
+* **Java JDK 17** ou superior.
+* **Maven 3.8+** (gerenciador de dependências).
+* **VS Code** (com a extensão *Extension Pack for Java*) ou IntelliJ IDEA.
+
 ## Explicação do projeto
 
 O objetivo principal deste projeto é construir uma aplicação Java voltada para o Telegram, desde a criação e confuguração inicial, até criar um bot capaz de interagir com os usuários e responder a comandos e perguntas pré-definidas 
@@ -77,7 +88,7 @@ Por conta do Telegram ter sido projetado para aceitar sistemas de terceiro ele �
 
 Todo programa Telegram passa pelo `Servidor de API do Telegram` que serve como um mediador entre software e usuario
 
-![App Screenshot](https://dummyimage.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](imagensReadme/Servidor%20Telegram.png)
 
 
 O servido Telegram quebra o processo em:
@@ -227,7 +238,23 @@ public class botFunction implements LongPollingSingleThreadUpdateConsumer{  //im
 
 
 
+
 ## 🔗 Links
 [![Slides](https://img.shields.io)](https://canva.link/ifsummitifpr)
 
 [![ifSummit](https://img.shields.io)](https://ifpr.edu.br/cascavel/if-summit-2006-confira-programacao-e-informacoes/)
+
+
+Spring boot
+
+- [Spring Initializr](https://start.spring.io/)
+- [Documentação Spring boot](https://spring.io/projects/spring-boot)
+- [Guia inicial](https://spring.io/guides/gs/spring-boot)
+- [Tutorial em video](https://youtu.be/YY_hf0FOIcU?si=XNCgR_SxZPVUzO3T)
+
+Programação Telegram
+
+- [Documentação oficial](https://core.telegram.org/api)
+- [Guia telegram oficial ](https://core.telegram.org/bots/tutorial)
+- [github da api java](https://github.com/rubenlagus/TelegramBots)
+- [tutorial em video](https://youtu.be/XjOnp8TVNSQ?si=YX1q8hSTICU7viSf)
